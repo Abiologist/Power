@@ -1,0 +1,75 @@
+#!/bin/bash
+
+#SBATCH --job-name=test
+#SBATCH --output=%x.%j.%Results_TEST.out
+#SBATCH --nodes=48
+#SBATCH --cpus-per-task=28
+#SBATCH --exclusive
+#SBATCH --delay 10
+#SBATCH --time=0-04:00:00
+#SBATCH --mem-per-cpu=1000
+
+module load r/4.0.3-gcc820
+
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_1.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_2.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_3.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_4.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_5.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_6.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_7.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_8.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_9.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_10.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_11.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_12.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_13.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_14.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_15.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_16.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_17.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_18.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_19.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_20.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_21.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_22.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_23.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_24.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_25.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_26.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_27.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_28.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_29.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_30.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_31.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_32.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_33.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_34.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_35.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_36.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_37.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_38.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_39.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_40.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_41.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_42.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_43.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_44.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_45.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_46.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_47.R &
+srun --exclusive --ntasks=1 Rscript --no-save --no-restore S3B_Simrun_two_SCRIPT_part2_48.R &
+wait
+
+
+
+
+
+
+
+
+
+
+
+
+
