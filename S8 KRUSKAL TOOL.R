@@ -1,4 +1,4 @@
-## Supplementary File 6. 	
+## Supplementary File S8. 	
 
 ## Monte Carlo KRUSKAL-WALLIS POWER STUDY TOOL - group-controlled ie. ratios of group sizes taken from "population" ratios.
 
