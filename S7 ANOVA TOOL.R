@@ -1,4 +1,4 @@
-## Supplementary File 5. 		
+## Supplementary File S7. 		
 
 ## Monte Carlo ANOVA POWER STUDY TOOL: Ratios of group sizes assumed from a "POPULATION" AND random data produced from normal distribution estimated from sample.
 
